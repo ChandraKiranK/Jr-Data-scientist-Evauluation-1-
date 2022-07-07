@@ -21,7 +21,7 @@ Now applied correlation to the dataset and visualised using seaborns heatmap.
 #### 1.	Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10 words - have any co-relation with the ranking)?
 Answr : Yes there is a negative corrrelation betwen short and long descriptions as indicated from the correlation matrix.
 #### 2.	Does APP ID (Also known as package name) play any role in ranking?  
-The App package has a postive correlation with the rank which indicates customers favoured interests to specific apps
+Answr : The App package has a postive correlation with the rank which indicates customers favoured interests to specific apps
 #### 3.	Any other pattern or good questions that you can think of and answer?
 Answr : Based on App ID, Vivaldi browser was the lowest rated. It was not even among top 16 in the ranks
         Based on keyword, Android browser was the best rated.Also fast browser was least rated. 
