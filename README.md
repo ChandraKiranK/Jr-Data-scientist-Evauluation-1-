@@ -8,9 +8,10 @@ Solution : I have pasted the text in tha text file. Then imported the text file 
 
 ### Qsn no-2 : Here’s the list of reviews of Chrome apps - scraped from Playstore.  DataSet Link
 ### Problem statement - There are times when a user writes Good, Nice App or any other positive text, in the review and gives 1-star rating. Your goal is to identify the reviews where the semantics of review text does not match rating. Your goal is to identify such ratings where review text is good, but rating is negative- so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link. 
-Solution : 
-
-
+Solution : The dataset contains 10 features. Among that text and ranking was necessary. Used nltk and regex libraries to clean the text.Used sentiment intensity analyzer to identify the sentiment of the review to categorise it as positive or negative. I have taken both rating 1 and 2 as low ratings and extracted the positive comments from it.
+![image](https://user-images.githubusercontent.com/108783651/178002231-4e462261-60d7-4305-a1c8-bec6183f54d2.png)
+#### Model deployment
+I have used streamlit to deploy it. Live link - https://chandrakirank-jr-data-scientist-evaulu-lowratinganalysis-fm6tnq.streamlitapp.com/
 
 ### Qsn no-3 : Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. Here’s the dataset. 
 Solution : Imported the file into python using pandas. The dataset contains 9 Attributes and 3065 columns. Rank attritube has 16 null values and same dealtwith using dropna.I have encoded the object type attributes using Labelencoder from sklearn.preprocessing. 
