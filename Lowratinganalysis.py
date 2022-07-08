@@ -3,7 +3,7 @@
 
 # In[1]:
 
-!pip install nltk
+pipinstall nltk
 import pandas as pd
 import re
 import sys
