@@ -12,6 +12,9 @@ Solution : The dataset contains 10 features. Among that text and ranking was nec
 ![image](https://user-images.githubusercontent.com/108783651/178002231-4e462261-60d7-4305-a1c8-bec6183f54d2.png)
 #### Model deployment
 I have used streamlit to deploy it. Live link - https://chandrakirank-jr-data-scientist-evaulu-lowratinganalysis-fm6tnq.streamlitapp.com/
+## Web App Screenshots
+![image](https://user-images.githubusercontent.com/108783651/178009212-26a569a5-a830-485e-b9f0-783900dbd20d.png)
+![image](https://user-images.githubusercontent.com/108783651/178009430-e6e8039f-3491-41c0-aef2-9298f352b4a0.png)
 
 ### Qsn no-3 : Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute. Here’s the dataset. 
 Solution : Imported the file into python using pandas. The dataset contains 9 Attributes and 3065 columns. Rank attritube has 16 null values and same dealtwith using dropna.I have encoded the object type attributes using Labelencoder from sklearn.preprocessing. 
