@@ -6,6 +6,7 @@
 
 import pandas as pd
 import numpy as np
+import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pandas as pd
 from nltk.corpus import stopwords
