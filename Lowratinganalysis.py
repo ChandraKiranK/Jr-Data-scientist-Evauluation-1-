@@ -3,7 +3,7 @@
 
 # In[1]:
 
-/home/appuser/venv/bin/python -m pip install --upgrade pip
+pip install --upgrade pip
 import pandas as pd
 import re
 import sys
