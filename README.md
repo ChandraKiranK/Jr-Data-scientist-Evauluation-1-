@@ -26,3 +26,28 @@ Answr : The App package has a postive correlation with the rank which indicates 
 #### 3.	Any other pattern or good questions that you can think of and answer?
 Answr : Based on App ID, Vivaldi browser was the lowest rated. It was not even among top 16 in the ranks
         Based on keyword, Android browser was the best rated.Also fast browser was least rated. 
+## Part 2
+### Qsn no-1 : Check if the sentence is Grammatically correct: Please use any pre-trained model or use text from open datasets. Once done, please evaluate the English Grammar in the text column of the below dataset. DataSet Link
+### Optional - if you can indicate the grammatical accuracy of sentences in percentage or on number scale (1-10), that would be an added plus - but is not essential. 
+Solution :  I used a fine-tuned version of Google's T5 model. T5 is a text-to-text model, meaning given text, it produces a standalone piece of text. After importing the data, i have applied the T5 model on it. It produced the correct grammatical text. Then calculated the similarity score between imput text and produced text.
+![image](https://user-images.githubusercontent.com/108783651/178004073-c4c9d633-f051-4868-ad6c-e753b0a09848.png)
+
+## Bonus point questions
+### Qsn no-1 : Write about any difficult problem that you solved. (According to us difficult - is something which 90% of people would have only 10% probability in getting a similarly good solution). 
+Answr : I was working in paper making industry. For improving surface appearance of pape board(gloss), we use pair of rolls known as softnip rolls through which the    paper passes. The rolls are loaded onto the paper board. When ever foriegn particles (about 2mm to 50 mm size) comes with paper board, they will get stick with the rools and generate impression on board which is called stamping. The paper board with stamping cannot be used by the customer and is defective.By the time workmen check and clean it we would loose more than 10 metric tons of paper which was huge loss. 
+I have instlled an IOT sensor to the roll bearings so that whenever foriegn particle sticks to the roll, the roll bearing vibration increases. IOT sensor captures the amplification in the bearing vibration and starts a hooter which will laet the crew. Crew will clean it immediately which reduces the loss.
+This is the incidence where i have adopted the emerging technology to identify issues and reduce loss. We are planning to implement computer vision technology to identify defects on paper Board.
+### Qsn no-2 : Formally, a vector space V' is a subspace of a vector space V if
+###  V' is a vector space
+###  every element of V′ is also an element of V.
+#### Note that ordered pairs of real numbers (a,b) a,b∈R form a vector space V. Which of the following is a subspace of V?
+#### ● The set of pairs (a, a + 1) for all real a
+#### ● The set of pairs (a, b) for all real a ≥ b
+#### ● The set of pairs (a, 2a) for all real a
+#### ● The set of pairs (a, b) for all non-negative real a,b
+Answr : The set of paris (a, 2a) for all real a is the subspace of vector space V.
+A Subspace is a vector space included in another large vector space. To find a spce is whether is a subspace or not, we need to test twothings
+1) To find the whether the sum of the vectors is in the subspace
+2) Scalar multiplied vector is in the subspace 
+That is, we are checking whether it is closed under additiona and scalar multiplication.
+
